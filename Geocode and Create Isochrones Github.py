@@ -1,8 +1,7 @@
 ##### About
 # Author: Regan Whitesell
 # Date Created: 10/04/2024
-# Last Updated: 10/04/2024
-
+# Last Updated: 10/05/2024
 
 
 ##### Import Libraries and Data
@@ -148,4 +147,4 @@ merged_isochrone = merge_isochrones(isochrones)
 gdf = gpd.GeoDataFrame(geometry=[merged_isochrone], crs='EPSG:4326')
 
 # Save as a GeoJSON for QGIS!
-gdf.to_file(r'C:INSERT_YOUR_FILE_PATH_HERE.geojson', driver='GeoJSON')
+gdf.to_file('INSERT_YOUR_FILE_PATH_HERE.geojson', driver='GeoJSON')
