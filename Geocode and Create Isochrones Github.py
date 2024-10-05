@@ -95,6 +95,8 @@ ChildcareLocations_G1_ref = ChildcareLocations_G1[['ProviderID', 'Latitude', 'Lo
 # Add back
 ChildcareLocations_PostGC = Counties_cc.merge(ChildcareLocations_G1_ref, how='left', on='ProviderID')
 
+# Save
+ChildcareLocations_PostGC.to_csv(INSERT_YOUR_FILE_PATH_HERE)
 
 
 ##### Create drive time isochrones
