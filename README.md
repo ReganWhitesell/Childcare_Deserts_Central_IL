@@ -12,7 +12,7 @@ The Illinois Department of Children and Family Services provides the locations o
 In order to install and run this project, you will need Python and QGIS in addition to API keys from the Census Bureau (https://api.census.gov/data/key_signup.html) and OpenRouteService (https://openrouteservice.org/). For the python script, you will need to install the packages that are in the import statements at the beginning of the script if you do not already have them installed in your environment. Additionally, for QGIS, I installed QuickMapServices for the basemap. 
 
 ## Replace in Python Code
-The following lines will need to be changed in the python code in order for you to run it. Everything that needs to be replaced includes file paths and API keys. 
+The following lines will need to be changed in the python code in order for you to run it. Everything that needs to be replaced includes file paths, API keys, and latitude and longitude coordinates for failed geocoded addresses. 
 | Line Number | Replace | Insert |
 | --------------- | --------------- | --------------- |
 | Line 19 | INSERT_YOUR_FILE_PATH_HERE | Insert your file path for Mason County. |
