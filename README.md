@@ -17,9 +17,10 @@ The following lines will need to be changed in the python code in order for you 
 | --------------- | --------------- | --------------- |
 | Line 19 | INSERT_YOUR_FILE_PATH_HERE | Insert your file path for Mason County. |
 | Line 22 | INSERT_YOUR_FILE_PATH_HERE | Insert your file path for Tazewell County. |
-| Line 25 | INSERT_YOUR_FILE_PATH_HERE | Insert yYour file path for Woodford County. |
+| Line 25 | INSERT_YOUR_FILE_PATH_HERE | Insert your file path for Woodford County. |
 | Line 59 | INSERT_YOUR_CENSUS_API_KEY_HERE | Insert your API key from the census bureau. |
 | Line 80 | INSERT_MANUAL_LATITUDE_VALUES_HERE | Insert latitude values for the failed geocoded addresses. |
 | Line 81 | INSERT_MANUAL_LONGITUDE_VALUES_HERE | Insert longitude values for the failed geocoded addresses. |
-| Line 142 | INSERT_YOUR_OPENROUTE_API_KEY_HERE | Insert your API key from OpenRouteService. |
-| Line 151 | INSERT_YOUR_FILE_PATH_HERE | Insert the file path you would like the geojson to save to. |
+| Line 99 | INSERT_YOUR_FILE_PATH_HERE | Insert your file path to save the childcare location data with latitude and longitude coordinates as a csv. | 
+| Line 143 | INSERT_YOUR_OPENROUTE_API_KEY_HERE | Insert your API key from OpenRouteService. |
+| Line 152 | INSERT_YOUR_FILE_PATH_HERE | Insert the file path you would like the geojson to save to. |
