@@ -17,13 +17,5 @@ To add the county outlines to the map, repeat the same process with the dissolve
 5. Clip Merged Isochrone (Optional) </br>
 If you would only like to see the drive time in the three counties, you can clip the merged isochrone using the dissolved census tract layer. To do this, you will need to navigate to the vector geoprocessing tools and select clip. Next, the input layer would be the merged isochrone and the overlay layer would be the dissolved census tract.
 
-7. Before Creating Map </br>
-Before creating the map, make sure that you have the correct layers selected in the correct layer order: Childcare Location, clipped drive time isochrone, all three dissolved counties, and dissolved census tract. Additionally, make all formatting changes here before creating the map. 
-
-8. Create Map </br>
-In the map, I [finish later]
-
-
-
-
-
+7. Create Map </br>
+Before creating the map, make sure that you have the correct layers selected in the correct layer order: Childcare Location, clipped drive time isochrone, all three dissolved counties, and dissolved census tract. Additionally, make all formatting changes here before creating the map. The elements that should be displayed on the map will depend on the goal you have for your final output. For this one, I stuck with a simple map to just display the drive time isochrones. 
